@@ -41,7 +41,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: managedSolutions
-        path: ${{ env.solution_outbound_folder}}/${{ env.solution_name}}
+        path: ${{ env.solution_outbound_folder}}/${{ env.solution_name}}_managed.zip
 
   release-to-staging:
     needs: [ convert-to-managed ]
