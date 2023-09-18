@@ -1,0 +1,8 @@
+name: release-to-test
+# trigger on creation of new release
+on:
+  release:
+    types: [created]
+
+  
+    
